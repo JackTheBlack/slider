@@ -86,7 +86,7 @@ test('Switching between slides works as expected', () => {
       expect(prevButton).toBeDisabled();
     }
 
-    if (idx-1 < slides.length) {
+    if (idx+1 < slides.length) {
       expect(nextButton).toBeEnabled();
     } else {
       expect(nextButton).toBeDisabled();
